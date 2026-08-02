@@ -1,0 +1,11 @@
+{
+  // CodeBuddy 项目级 MCP 服务器配置
+  // mdui 官方 MCP：为 AI 提供 mdui 组件、图标、CSS 变量等离线查询能力
+  "mcpServers": {
+    "mdui": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@mdui/mcp"]
+    }
+  }
+}
